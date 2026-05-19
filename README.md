@@ -5,3 +5,11 @@ I would put automated testing within a **Github action** that runs whenever code
 
 ## Question 2: End to End testing for function output?
 No, I would not use E2E testing to check the output of a specific function. This type of testing simulates how a user would use the website/program, from start to finish. This means theres many functions being tested at once, since we are testing the whole program. For testing the output of a specific function, **unit testing** would be more optimal.
+
+## Question 3: Difference between navigation and snapshot mode
+Snapshot mode looks at the page in its current state, while navigation loads the page then analizes. Snapshot is good for analyzing the page at a state which isn't seen upon load, like a checkout screen.
+
+## Question 4: 3 Things to improve CSE 110 shop site (Lighthouse results)
+1. HTML attribute doesn't have a "lang" value. Add a language to increase accessability.
+2. SEO: Content doesn't have meta description. Lighthouse is suggesting to add a meta description to the page to allow it to be more easily searchable.
+3. Mobile formatting. The buttons and images on mobile are very small and hard to read. The format should be different for mobile, maybe 1 item per row, and smaller margins.
